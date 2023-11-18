@@ -1,0 +1,13 @@
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10rem;
+    height: 15rem;
+}
+
+.button {
+    margin-top: 2em;
+}
+
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario de Reserva</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <form>
+        <h1>Formulario de Reserva</h1>
+        <section class="introduction">
+            <label class="space">Nombre:
+                <input name="nombre" type="text" placeholder="Aileen"
+                required autofocus>
+            </label>
+            <label class="space">Apellidos:
+                <input name="apellidos" type="text" placeholder="Padrón Torres"
+                required>
+            </label>
+            <br>
+            <label class="space">Teléfono de contacto:
+                <input name="telefono" type="tel" placeholder="728 83 92 93"
+                required>
+            </label>
+            <label class="space">Email:
+                <input name="email" type="email"
+                placeholder="someone@gmail.com" required>
+            </label>
+            <label class="space">Número de noches:
+                <input name="n_noches" type="number" placeholder="1" value="1"
+                required>
+            </label>
+        </section>
+        <section>
+            <h3>Fecha de entrada</h3>
+            <label>Día:
+                <select name="dia" required>
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+            </label>
+            <label>Mes:
+                <select name="mes" required>
+                    <option selected>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                </select>
+            </label>
+        </section>
+        <section>
+            <h3>Tipo de habitación</h3>
+            <label>Simple
+                <input name="habitacion" type="radio">
+            </label>
+            <label>Doble
+                <input name="habitacion" type="radio">
+            </label>
+            <label>Matrimonio
+                <input name="habitacion" type="radio">
+            </label>
+        </section>
+        <section>
+            <h3>Extras</h3>
+            <label>Desayuno
+                <input name="desayuno" type="checkbox">
+            </label>
+            <label>Comida
+                <input name="comida" type="checkbox">
+            </label>
+            <label>Cena
+                <input name="cena" type="checkbox">
+            </label>
+            <label>Cama supletoria
+                <input name="cama_supletoria" type="checkbox">
+            </label>
+        </section>
+        <h3>Comentarios</h3>
+        <textarea rows="4" cols="50" placeholder="Deja tus comentarios aquí.">
+        </textarea>
+        <section class="button">
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar todo</button>
+        </section>
+    </form>
+</body>
+</html>
